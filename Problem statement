@@ -1,0 +1,63 @@
+Please answer the following questions with all relevant assumptions, explanations and details. 
+Planned to purchase product A ! Actually placed order for productA- yes ! Actually placed order for productA no! Total
+Yes                           ! 400                                     !    100                               !  500
+No                            ! 200                                     !    1300                              !  1500
+TOTAL                         ! 600                                     !    1400                              !  2000
+1. Please refer the table below to answer below questions: [2 Marks]
+1.A. Refer above table and find the joint probability of the people who planned to purchase and actually placed an order. [1 Mark]
+1.B. Refer to the above table and find the joint probability of the people who planned to purchase and actually placed an order, given that 
+people planned to purchase. [1 Mark]
+2. An electrical manufacturing company conducts quality checks at specified periods on the products it manufactures. Historically, the 
+failure rate for the manufactured item is 5%. Suppose a random sample of 10 manufactured items is selected. Answer the following 
+questions. [4 Marks]
+2.A. Probability that none of the items are defective? [1 Mark]
+2.B. Probability that exactly one of the items is defective? [1 Mark]
+2.C. Probability that two or fewer of the items are defective? [1 Mark]
+2.D. Probability that three or more of the items are defective ? [1 Mark]
+3. A car salesman sells on an average 3 cars per week. [3 Marks]
+3.A. What is Probability that in a given week he will sell some cars? [1 Mark]
+3.B. What is Probability that in a given week he will sell 2 or more but less than 5 cars? [1 Mark]
+3.C. Plot the poisson distribution function for cumulative probability of cars sold per-week vs number of cars sold per week. [1 Mark]
+4. Accuracy in understanding orders for a speech based bot at a restaurant is important for the Company X which has designed, 
+marketed and launched the product for a contactless delivery due to the COVID-19 pandemic. Recognition accuracy that measures the 
+percentage of orders that are taken correctly is 86.8%. Suppose that you place an order with the bot and two friends of yours 
+independently place orders with the same bot. Answer the following questions. [3 Marks] 
+4.A. What is the probability that all three orders will be recognised correctly? [1 Mark]
+4.B. What is the probability that none of the three orders will be recognised correctly? [1 Mark]
+4.C. What is the probability that at least two of the three orders will be recognised correctly? [1 Mark]
+5. Explain 1 real life industry scenario (other than the ones mentioned above) where you can use the concepts learnt in this module of 
+Applied Statistics to get data driven business solution. [3 Marks]
+DOMAIN: Sports
+• CONTEXT: Company X manages the men's top professional basketball division of the American league system. The dataset contains information 
+on all the teams that have participated in all the past tournaments. It has data about how many baskets each team scored, conceded, how many 
+times they came within the first 2 positions, how many tournaments they have qualified, their best position in the past, etc.
+• DATA DESCRIPTION: Basketball.csv - The data set contains information on all the teams so far participated in all the past tournaments.
+• DATA DICTIONARY:
+1. Team: Team’s name
+2. Tournament: Number of played tournaments.
+3. Score: Team’s score so far.
+4. PlayedGames: Games played by the team so far.
+5. WonGames: Games won by the team so far.
+6. DrawnGames: Games drawn by the team so far.
+7. LostGames: Games lost by the team so far.
+8. BasketScored: Basket scored by the team so far.
+9. BasketGiven: Basket scored against the team so far.
+10. TournamentChampion: How many times the team was a champion of the tournaments so far.
+11. Runner-up: How many times the team was a runners-up of the tournaments so far.
+12. TeamLaunch: Year the team was launched on professional basketball.
+13. HighestPositionHeld: Highest position held by the team amongst all the tournaments played.
+• PROJECT OBJECTIVE: Company’s management wants to invest on proposals on managing some of the best teams in the league. The analytics 
+department has been assigned with a task of creating a report on the performance shown by the teams. Some of the older teams are already in 
+contract with competitors. Hence Company X wants to understand which teams they can approach which will be a deal win for them.
+• STEPS AND TASK [30 Marks]:
+1. Read the data set, clean the data and prepare final dataset to be used for analysis. [10 Marks]
+2. Perform detailed statistical analysis and EDA using univariate, bi-variate and multivariate EDA techniques to get data driven insights on 
+recommending which teams they can approach which will be a deal win for them. Also as a data and statistics expert you have to develop a 
+detailed performance report using this data. [10 Marks]
+Hint: Use statistical techniques and visualisation techniques to come up with useful metrics and reporting. Find out the best performing 
+team, oldest team, team with highest goals, team with lowest performance etc. and many more. These are just random examples. Please 
+use your best analytical approach to build this report. You can mix match columns to create new ones which can be used for better 
+analysis. Create your own features if required. Be highly experimental and analytical here to find hidden patterns. Use graphical interactive 
+libraries to enable you to publish interactive plots in python.
+3. Please include any improvements or suggestions to the association management on quality, quantity, variety, velocity, veracity etc. on the 
+data points collected by the association to perform a better data analysis in future. At-least 1 suggestion for each point. [10 Marks]
